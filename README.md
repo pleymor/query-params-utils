@@ -1,5 +1,5 @@
 # Query-params-utils
-Manipulation of query parameters
+AMD module for manipulation of query parameters.
 
 ## Methods
 

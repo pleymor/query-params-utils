@@ -1,5 +1,5 @@
 define(
-    'query-params',
+    'query-params-utils',
     function () {
 
         'use strict';

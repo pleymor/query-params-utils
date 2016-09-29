@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Example of usage</title>
+    <script src="lib/require.js"></script>
+</head>
+<body>
+<script>
+
+    var test = document.createElement("p");
+
+    require(['query-params-utils'], function (q) {
+        var result = q.putUrlParameter('http://foo.bar', 'key', 'val');
+        test.innerHTML = 'q.putUrlParameter(\'http://foo.bar\', \'key\', \'val\') -> ' + result;
+        document.body.appendChild(test);
+    });
+
+</script>
+</body>
+</html>
+
